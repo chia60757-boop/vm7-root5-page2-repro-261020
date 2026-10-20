@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: VM7 inert baseline
+    conditions:
+      - base = vm7-never-existing-branch
+    actions:
+      merge:
+        method: merge
